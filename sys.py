@@ -17,7 +17,7 @@ import win32gui
 import pygetwindow as gw
 import datetime
 username = os.getlogin()
-user_id = "1304451700"
+user_id = ""
 def autorun():
     data = """
     function Gen-Task($eventid)
